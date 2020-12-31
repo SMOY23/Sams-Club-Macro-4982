@@ -26,13 +26,18 @@ img {
     align-items: center;
 }
 
-h3 {
+.index-h3 {
     margin-bottom: 50px;
 }
 
 a {
     text-decoration: none;
     color: #fff;
+}
+
+.main-menu a {
+    font-size: 4rem;
+    padding-bottom: 50px;
 }
 
 a:hover {
