@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+    color: #fff;
+}
+
+html {
+    background-color: black;
+}
+
+img {
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: blue;
+}
+
+.tarjeta-img {
+    height: 300px;
+    width: 500px;
+}
+
+.main-update {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-form {
+    margin: 20px;
+}
+
+.index-h3 {
+    font-size: 2rem;
+}
+
+.form-container table {
+    background-color: #fff;
+    color: black;
+}
+
+.main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.img-main {
+    height: 200px;
+    width: auto;
+}
+
+#time {
+    display: inline-block;
+    margin: 50px;
+}
+
+#pagototal {
+    padding: 100px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+}
+
+button {
+    margin: 5px;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.fas {
+    font-size: 3rem;
+}
+
+
+/*
+@media(max-width: 720px){
+    a{
+        color: gray;
+    }
+}
+*/
