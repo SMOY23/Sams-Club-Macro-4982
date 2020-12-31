@@ -102,6 +102,58 @@ button {
     font-size: 3rem;
 }
 
+.code-main {
+    margin: 90px;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+table {
+    font-size: .8rem;
+    border: none;
+    overflow-x: auto;
+    background-color: #d1e7dd;
+}
+
+.table-fixed tbody {
+    height: 70vh;
+    overflow-y: auto;
+    width: 100%;
+}
+
+thead tr {
+    display: inline;
+}
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed td,
+.table-fixed th {
+    display: block;
+}
+
+.table-fixed tbody td,
+.table-fixed thead>tr>th {
+    float: left;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-100 {
+    width: 188px;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
 
 /*
 @media(max-width: 720px){
