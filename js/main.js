@@ -296,7 +296,7 @@ let codigos = [{
     },
     {
         id: 59,
-        name: 'VASOS DESHECHABLES BOSCO',
+        name: 'VASOS DESH BOSCO',
         code: '669863'
     },
     {
@@ -306,7 +306,7 @@ let codigos = [{
     },
     {
         id: 61,
-        name: 'JUGO DE NARANJA UNICO 6PZ',
+        name: 'JUGO DE NA UNICO 6PZ',
         code: '83370'
     },
     {
@@ -321,12 +321,12 @@ let codigos = [{
     },
     {
         id: 64,
-        name: 'ENSALADA DE LEGUMBRES HERDEZ 8PZ',
+        name: 'ENS DE LEGUM HERDEZ 8PZ',
         code: '980012074'
     },
     {
         id: 65,
-        name: 'GRANOS DE ELOTE HERDEZ 8PZ',
+        name: 'G DE ELOTE HERDEZ 8PZ',
         code: '980012076'
     },
     {
@@ -341,12 +341,12 @@ let codigos = [{
     },
     {
         id: 68,
-        name: 'LECHE LALA DESLAC 12PZ 1LT',
+        name: 'LECHE LALA DESL 12PZ 1LT',
         code: '10235'
     },
     {
         id: 69,
-        name: 'LECHE LALA DESLAC LIGHT 12PZ 1LT',
+        name: 'LECHE LALA DESL LI 12PZ 1LT',
         code: '123090'
     },
     {
@@ -356,18 +356,28 @@ let codigos = [{
     },
     {
         id: 71,
-        name: 'LECHE LALA SEMIDESC 12PZ 1LT',
+        name: 'LECHE LALA SDESC 12PZ 1LT',
         code: '28456'
     },
     {
         id: 72,
-        name: 'PLATANO ORGANICO CHANITOS',
+        name: 'PLATANO ORG CHANITOS',
         code: '980007149'
     },
     {
         id: 73,
         name: 'TEQUILA DON JULIO 70',
         code: '980014000'
+    },
+    {
+        id: 74,
+        name: 'AGUA BONAFONT 2/4LTS',
+        code: '980014000'
+    },
+    {
+        id: 75,
+        name: 'LIMON IMPORTADO',
+        code: '9127205'
     }
 
 ]
@@ -404,16 +414,17 @@ function printDate() {
     console.log(fechaVencimiento);
     //console.log(milisegundoTrans);
     //console.log(diasTranscurridos);
+    console.log(diasTranscurridos);
 
     if (fechaActual == '' && fechaVencimiento == '') {
         alert('Por favor selecione una fecha valida')
     } else {
         if (tarjeta == '1') {
-            price = ((650 * diasTranscurridos) / 365).toFixed(2);
+            price = ((600 / 365) * diasTranscurridos).toFixed(2);
             getPrice();
 
         } else {
-            price = ((1100 * diasTranscurridos) / 365).toFixed(2);
+            price = ((450 / 365) * diasTranscurridos).toFixed(2);
             getPrice();
 
         }
