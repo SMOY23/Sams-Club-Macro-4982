@@ -372,13 +372,38 @@ let codigos = [{
     {
         id: 74,
         name: 'AGUA BONAFONT 2/4LTS',
-        code: '980014000'
+        code: '705682'
     },
     {
         id: 75,
         name: 'LIMON IMPORTADO',
         code: '9127205'
-    }
+    },
+    {
+        id: 76,
+        name: 'ROSCA DE REYES',
+        code: '669313'
+    },
+    {
+        id: 77,
+        name: 'RICA BURGER 40PZ',
+        code: '980018108'
+    },
+    {
+        id: 78,
+        name: 'BODY PILLOW',
+        code: '980023183'
+    },
+    {
+        id: 79,
+        name: 'ESPARRAGOS',
+        code: '647811'
+    },
+    {
+        id: 80,
+        name: 'CALCETINES FLORSHEIM 4PK',
+        code: '980017655'
+    },
 
 ]
 
@@ -447,3 +472,4 @@ function getPrice() {
 }
 
 printCode();
+
