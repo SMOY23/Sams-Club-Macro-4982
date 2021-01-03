@@ -162,10 +162,10 @@ thead tr {
 }
 
 .main-tiac {
-    justify-content: center;
     align-items: center;
-    display: flex;
-    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    height: fit-content;
 }
 
 .main-credit {
