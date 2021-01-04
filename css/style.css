@@ -106,9 +106,13 @@ button {
     margin: 90px;
 }
 
-.container {
-    width: 100%;
+.cont {
+    display: flex;
+    flex-direction: column;
     position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 
 table {
@@ -116,6 +120,8 @@ table {
     border: none;
     overflow-x: auto;
     background-color: #d1e7dd;
+    margin: 10px;
+    padding: 10px;
 }
 
 .table-fixed tbody {
@@ -162,6 +168,9 @@ thead tr {
 }
 
 .main-tiac {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
     align-items: center;
     width: fit-content;
     margin: auto;
@@ -173,18 +182,63 @@ thead tr {
     padding-top: 50px;
 }
 
-body {font-family: Arial, Helvetica, sans-serif; background-color: #000000;}
-table { font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; font-size: 12px; margin: 45px; width: 550px;
-    text-align: center; border-collapse: collapse; }
-th { font-size: 13px; font-weight: normal; padding: 8px; background: #b9c9fe; border-top: 4px solid #aabcfe;
-    border-bottom: 1px solid #fff; color: #039; }
-td { padding: 8px; background: #e8edff; border-bottom: 1px solid #fff; color: #669; border-top: 1px solid transparent; }
-tr:hover td { background: #d0dafd; color: #339; }
-.editar {color: blue; cursor:pointer;}
-#contenedorForm {margin-left: 45px; font-size:12px;}
-.boton {   color: black; padding: 5px; margin: 10px;
-  background-color: #b9c9fe;
-  font-weight: bold; }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+
+/*
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    margin: 45px;
+    width: 550px;
+    text-align: center;
+    border-collapse: collapse;
+}*/
+
+th {
+    font-size: 13px;
+    font-weight: normal;
+    padding: 8px;
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+    color: #039;
+}
+
+td {
+    padding: 8px;
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+}
+
+tr:hover td {
+    background: #d0dafd;
+    color: #339;
+}
+
+.editar {
+    color: blue;
+    cursor: pointer;
+}
+
+#contenedorForm {
+    margin-left: 45px;
+    font-size: 12px;
+}
+
+.boton {
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    background-color: #b9c9fe;
+    font-weight: bold;
+}
+
 
 /*
 @media(max-width: 720px){
