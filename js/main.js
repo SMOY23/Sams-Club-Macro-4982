@@ -401,7 +401,7 @@ let codigos = [{
     },
     {
         id: 80,
-        name: 'CALCETINES FLORSHEIM 4PK',
+        name: 'CALC FLORSHEIM 4PK',
         code: '980017655'
     },
     {
@@ -416,17 +416,17 @@ let codigos = [{
     },
     {
         id: 83,
-        name: 'PAÑAL CHICOLASTIC ANTIFUGAS ET5',
+        name: 'KIDDIES ANTIFUGAS ET5',
         code: '869502'
     },
     {
         id: 84,
-        name: 'PAÑAL CHICOLASTIC ANTIFUGAS ET4',
+        name: 'KIDDIES ANTIFUGAS ET4',
         code: '869495'
     },
     {
         id: 85,
-        name: 'PAÑAL CHICOLASTIC ANTIFUGAS ET6',
+        name: 'KIDDIES ANTIFUGAS ET6',
         code: '869509'
     },
 
