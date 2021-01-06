@@ -404,6 +404,31 @@ let codigos = [{
         name: 'CALCETINES FLORSHEIM 4PK',
         code: '980017655'
     },
+    {
+        id: 81,
+        name: 'ROSCA DE REYES GROUMET',
+        code: '66982'
+    },
+    {
+        id: 82,
+        name: 'PLAYERAS CHAMPION',
+        code: '980021310'
+    },
+    {
+        id: 83,
+        name: 'PAÑAL CHICOLASTIC ANTIFUGAS ET5',
+        code: '869502'
+    },
+    {
+        id: 84,
+        name: 'PAÑAL CHICOLASTIC ANTIFUGAS ET4',
+        code: '869495'
+    },
+    {
+        id: 85,
+        name: 'PAÑAL CHICOLASTIC ANTIFUGAS ET6',
+        code: '869509'
+    },
 
 ]
 
